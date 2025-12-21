@@ -16,7 +16,7 @@ This repository is licensed under the [MIT License][url_license].
   <ol>
     <li><a href="#citation">Citation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#references">Reference Results</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
 </details>
 

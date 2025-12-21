@@ -1,2 +1,59 @@
-# ph_cosserat_rods
-Simulation results of "Kinon, P.L., Eugster, S. R. &amp; Betsch, P. (2025): Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework"
+<!-- [![arXiv](https://img.shields.io/badge/arXiv-2505.18810-b31b1b.svg)](https://arxiv.org/abs/2505.18810) -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15007242.svg)](https://doi.org/10.5281/zenodo.15007242) -->
+<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) -->
+
+# `PHCosseratRods`
+
+This repository contains the simulation results of the paper
+_Kinon, P. L., Eugster, S. R. & Betsch, P. (2025): 
+Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework_.
+<!-- [Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework](https://arxiv.org/abs/2505.18810)_. -->
+This repository is licensed under the [MIT License][url_license].
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li><a href="#citation">Citation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#reference results">Reference Results</a></li>
+  </ol>
+</details>
+
+## Citation
+
+If you found our work helpful and you have used it in your academic work, please cite it as:
+
+```bibtex
+@misc{kinon_eugster_betsch_2025,
+  title={Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework}, 
+  author={Philipp L. Kinon and Simon R. Eugster and Peter Betsch},
+  year={2025},
+  eprint={2512.12345},
+  archivePrefix={arXiv},
+  primaryClass={math.NA},
+  url={https://arxiv.org/abs/2512.18810}, 
+}
+```
+see also the [CITATION.bib](CITATION.bib) file for download.
+
+
+## Usage
+
+The implementation has been done in the finite element code base [`moofeKIT`][moofekit_repo]. The results are documented here for reproducibility and verification purposes.
+
+1. [Clone][url_how_to_clone] this repository to your machine.
+2. Open a terminal and navigate to your local clone.
+3. Extract your desired result data as `.csv`-file data from the [results folder](results). This folder contains subfolders for each experiment documented in the manuscript.
+4. Use your favorite plotting tool to visualize the data.
+
+## Reference results
+In the manuscript, we compare our formulation to two other approaches from the literature: [Herrmann & Kotyczka (2024)][doi_herrmann_kotyczka_2024] and [Herrmann et al. (2025)][doi_herrmann_etal_2025]. The data are available in [this folder](reference_results) for your convenience. Please cite those works appropriately if you use the data.
+
+
+[moofekit_repo]: https://github.com/kit-ifm/moofeKIT
+[url_license]: LICENSE
+[url_how_to_clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+[doi_herrmann_kotyczka_2024]: https://doi.org/10.1016/j.cma.2024.117367
+[doi_herrmann_etal_2025]: 
+https://doi.org/10.48550/arXiv.2507.01552

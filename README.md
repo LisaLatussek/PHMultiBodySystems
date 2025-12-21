@@ -16,7 +16,7 @@ This repository is licensed under the [MIT License][url_license].
   <ol>
     <li><a href="#citation">Citation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#reference results">Reference Results</a></li>
+    <li><a href="#references">Reference Results</a></li>
   </ol>
 </details>
 
@@ -47,7 +47,7 @@ The implementation has been done in the finite element code base [`moofeKIT`][mo
 3. Extract your desired result data as `.csv`-file data from the [results folder](results). This folder contains subfolders for each experiment documented in the manuscript.
 4. Use your favorite plotting tool to visualize the data.
 
-## Reference results
+## References
 In the manuscript, we compare our formulation to two other approaches from the literature: [Herrmann & Kotyczka (2024)][doi_herrmann_kotyczka_2024] and [Herrmann et al. (2025)][doi_herrmann_etal_2025]. The data are available in [this folder](reference_results) for your convenience. Please cite those works appropriately if you use the data.
 
 

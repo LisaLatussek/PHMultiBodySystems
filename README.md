@@ -48,7 +48,7 @@ The implementation has been done in the finite element code base [`moofeKIT`][mo
 4. Use your favorite plotting tool to visualize the data.
 
 ## References
-In the manuscript, we compare our formulation to two other approaches from the literature: [Herrmann & Kotyczka (2024)][doi_herrmann_kotyczka_2024] and [Herrmann et al. (2025)][doi_herrmann_etal_2025]. The data are available in [this folder](reference_results) for your convenience. Please cite those works appropriately if you use the data.
+In the manuscript, we compare our formulation to two other approaches from the literature: [Herrmann & Kotyczka (2024)][doi_herrmann_kotyczka_2024] and [Herrmann et al. (2025)][doi_herrmann_etal_2025]. The analytical reference solution in example 03 is due to [Harsch et al. (2021)][doi_harsch_etal_2021]. The data are available in [this folder](reference_results) for your convenience. Please cite those works appropriately if you use the data.
 
 
 [moofekit_repo]: https://github.com/kit-ifm/moofeKIT
@@ -57,3 +57,4 @@ In the manuscript, we compare our formulation to two other approaches from the l
 [doi_herrmann_kotyczka_2024]: https://doi.org/10.1016/j.cma.2024.117367
 [doi_herrmann_etal_2025]: 
 https://doi.org/10.48550/arXiv.2507.01552
+[doi_harsch_etal_2021]: https://doi.org/10.1177/10812865211000790

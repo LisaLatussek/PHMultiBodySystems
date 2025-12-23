@@ -1,13 +1,12 @@
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-2505.18810-b31b1b.svg)](https://arxiv.org/abs/2505.18810) -->
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15007242.svg)](https://doi.org/10.5281/zenodo.15007242) -->
-<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) -->
+[![arXiv](https://img.shields.io/badge/arXiv-2512.19408-b31b1b.svg)](https://arxiv.org/abs/2512.19408)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18007057.svg)](https://doi.org/10.5281/zenodo.18007057)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # `PHCosseratRods`
 
 This repository contains the simulation results of the paper
 _Kinon, P. L., Eugster, S. R. & Betsch, P. (2025): 
-Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework_.
-<!-- [Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework](https://arxiv.org/abs/2505.18810)_. -->
+[Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework](https://arxiv.org/abs/2512.19408)_.
 This repository is licensed under the [MIT License][url_license].
 
 <!-- TABLE OF CONTENTS -->
@@ -26,23 +25,15 @@ If you found our work helpful and you have used it in your academic work, please
 
 ```bibtex
 @misc{kinon_eugster_betsch_2025,
-  title={Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework}, 
-  author={Philipp L. Kinon and Simon R. Eugster and Peter Betsch},
-  year={2025},
+  title         = {Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework},
+  author        = {Philipp L. Kinon and Simon R. Eugster and Peter Betsch},
+  year          = {2025},
+  eprint        = {2512.19408},
   archiveprefix = {arXiv},
+  primaryclass  = {math.NA},
+  url           = {https://arxiv.org/abs/2512.19408}
 }
 ```
-<!-- ```bibtex
-@misc{kinon_eugster_betsch_2025,
-  title={Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework}, 
-  author={Philipp L. Kinon and Simon R. Eugster and Peter Betsch},
-  year={2025},
-  eprint={2512.12345},
-  archivePrefix={arXiv},
-  primaryClass={math.NA},
-  url={https://arxiv.org/abs/2512.18810}, 
-}
-``` -->
 see also the [CITATION.bib](CITATION.bib) file for download.
 
 

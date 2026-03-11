@@ -40,7 +40,7 @@ see also the [CITATION.bib](CITATION.bib) file for download.
 
 ## Usage
 
-The implementation was based on the open-source code base [`pydykit`][pydykit_repo]. The results are documented here for reproducibility and verification purposes.
+The implementation has been done in the open-source code base [`pydykit`][pydykit_repo]. The results are documented here for reproducibility and verification purposes.
 
 1. [Clone][url_how_to_clone] this repository to your machine.
 2. Open a terminal and navigate to your local clone.
@@ -48,8 +48,7 @@ The implementation was based on the open-source code base [`pydykit`][pydykit_re
 4. Use your favorite plotting tool to visualize the data.
 
 ## References
-In the manuscript, we compare our formulation to two other approaches from the literature: [Masoudi][url_masoudi_2025] and [Zhou et al. (2022)][doi_zhou_etal_2022]. The data are included in [this folder](results) for your convenience. Please cite those works appropriately if you use the data.
-
+In the manuscript, we compare our formulation to two other approaches from the literature: [Masoudi][url_masoudi_2025] and [Zhou et al. (2022)][doi_zhou_etal_2022]. The data are included in [this file](results/example_03_slider_crank/slider_crank_results_h=0.01_incl_reference_results.csv) for your convenience. Please cite those works appropriately if you use the data.
 
 [pydykit_repo]: https://github.com/pydykit
 [url_license]: LICENSE

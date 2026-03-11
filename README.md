@@ -5,7 +5,7 @@
 # `PHMultiBodySystems`
 
 This repository contains the simulation results of the paper
-_Latusse, L., Kinon, P. L., & Betsch, P. (2026): 
+_Latussek, L., Kinon, P. L., & Betsch, P. (2026): 
 [Port-Hamiltonian multibody dynamics:
 Lagrangian formulation, consistent interconnection, structure-preserving simulation and index-reduction](url_arxiv)_.
 This repository is licensed under the [MIT License][url_license].
@@ -25,10 +25,10 @@ This repository is licensed under the [MIT License][url_license].
 If you found our work helpful and you have used it in your academic work, please cite it as:
 
 ```bibtex
-@misc{kinon_eugster_betsch_2025,
-  title         = {Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework},
-  author        = {Philipp L. Kinon and Simon R. Eugster and Peter Betsch},
-  year          = {2025},
+@misc{latussek_kinon_betsch_2026,
+  title         = {Port-Hamiltonian multibody dynamics: Lagrangian formulation, consistent interconnection, structure-preserving simulation and index-reduction},
+  author        = {L. Latussek and P. L. Kinon and P. Betsch},
+  year          = {2026},
   eprint        = {2512.19408},
   archiveprefix = {arXiv},
   primaryclass  = {math.NA},
@@ -48,7 +48,7 @@ The implementation was based on the open-source code base [`pydykit`][pydykit_re
 4. Use your favorite plotting tool to visualize the data.
 
 ## References
-In the manuscript, we compare our formulation to two other approaches from the literature: [Masoudi][url_masoudi_2025] and [Zhou et al. (2022)][doi_zhou_etal_2022]. The data are available in [this folder](reference_results) for your convenience. Please cite those works appropriately if you use the data.
+In the manuscript, we compare our formulation to two other approaches from the literature: [Masoudi][url_masoudi_2025] and [Zhou et al. (2022)][doi_zhou_etal_2022]. The data are included in [this folder](results) for your convenience. Please cite those works appropriately if you use the data.
 
 
 [moofekit_repo]: https://github.com/pydykit

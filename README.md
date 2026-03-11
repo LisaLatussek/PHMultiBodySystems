@@ -2,11 +2,12 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18007057.svg)](https://doi.org/10.5281/zenodo.18007057)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# `PHCosseratRods`
+# `PHMultiBodySystems`
 
 This repository contains the simulation results of the paper
-_Kinon, P. L., Eugster, S. R. & Betsch, P. (2025): 
-[Mixed formulation and structure-preserving discretization of Cosserat rod dynamics in a port-Hamiltonian framework](https://arxiv.org/abs/2512.19408)_.
+_Latusse, L., Kinon, P. L., & Betsch, P. (2026): 
+[Port-Hamiltonian multibody dynamics:
+Lagrangian formulation, consistent interconnection, structure-preserving simulation and index-reduction](url_arxiv)_.
 This repository is licensed under the [MIT License][url_license].
 
 <!-- TABLE OF CONTENTS -->
@@ -39,7 +40,7 @@ see also the [CITATION.bib](CITATION.bib) file for download.
 
 ## Usage
 
-The implementation has been done in the finite element code base [`moofeKIT`][moofekit_repo]. The results are documented here for reproducibility and verification purposes.
+The implementation was based on the open-source code base [`pydykit`][pydykit_repo]. The results are documented here for reproducibility and verification purposes.
 
 1. [Clone][url_how_to_clone] this repository to your machine.
 2. Open a terminal and navigate to your local clone.
@@ -47,13 +48,12 @@ The implementation has been done in the finite element code base [`moofeKIT`][mo
 4. Use your favorite plotting tool to visualize the data.
 
 ## References
-In the manuscript, we compare our formulation to two other approaches from the literature: [Herrmann & Kotyczka (2024)][doi_herrmann_kotyczka_2024] and [Herrmann et al. (2025)][doi_herrmann_etal_2025]. The analytical reference solution in example 03 is due to [Harsch et al. (2021)][doi_harsch_etal_2021]. The data are available in [this folder](reference_results) for your convenience. Please cite those works appropriately if you use the data.
+In the manuscript, we compare our formulation to two other approaches from the literature: [Masoudi][url_masoudi_2025] and [Zhou et al. (2022)][doi_zhou_etal_2022]. The data are available in [this folder](reference_results) for your convenience. Please cite those works appropriately if you use the data.
 
 
-[moofekit_repo]: https://github.com/kit-ifm/moofeKIT
+[moofekit_repo]: https://github.com/pydykit
 [url_license]: LICENSE
 [url_how_to_clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
-[doi_herrmann_kotyczka_2024]: https://doi.org/10.1016/j.cma.2024.117367
-[doi_herrmann_etal_2025]: 
-https://doi.org/10.48550/arXiv.2507.01552
-[doi_harsch_etal_2021]: https://doi.org/10.1177/10812865211000790
+[url_masoudi_2025]: https://www.iftomm-multibody.org/benchmark/problem/Spatial_rigid_slider-crank_mechanism/
+[doi_zhou_etal_2022]: 
+https://doi.org/10.1007/s11044-022-09825-0

@@ -6,8 +6,10 @@
 
 This repository contains the simulation results of the paper
 _Latussek, L., Kinon, P. L., & Betsch, P. (2026): 
-[Port-Hamiltonian multibody dynamics:
-Lagrangian formulation, consistent interconnection, structure-preserving simulation and index-reduction](url_arxiv)_.
+Port-Hamiltonian multibody dynamics:
+Lagrangian formulation, consistent interconnection, structure-preserving simulation and index-reduction_ .
+<!-- [Port-Hamiltonian multibody dynamics:
+Lagrangian formulation, consistent interconnection, structure-preserving simulation and index-reduction](url_arxiv)_ . -->
 This repository is licensed under the [MIT License][url_license].
 
 <!-- TABLE OF CONTENTS -->

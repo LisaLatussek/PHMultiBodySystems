@@ -50,7 +50,7 @@ The implementation has been done in the open-source code base [`pydykit`][pydyki
 ## References
 In the manuscript, we compare our formulation to two other approaches from the literature: [Masoudi][url_masoudi_2025] and [Zhou et al. (2022)][doi_zhou_etal_2022]. The data are included in [this file](results/example_03_slider_crank/slider_crank_results_h=0.01_incl_reference_results.csv) for your convenience. Please cite those works appropriately if you use the data.
 
-[pydykit_repo]: https://github.com/pydykit
+[pydykit_repo]: https://github.com/pydykit/pydykit
 [url_license]: LICENSE
 [url_how_to_clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 [url_masoudi_2025]: https://www.iftomm-multibody.org/benchmark/problem/Spatial_rigid_slider-crank_mechanism/

@@ -6,8 +6,10 @@
 
 This repository contains the simulation results of the paper
 _Latussek, L., Kinon, P. L., & Betsch, P. (2026): 
-[Port-Hamiltonian multibody dynamics:
-Lagrangian formulation, consistent interconnection, structure-preserving simulation and index-reduction](url_arxiv)_.
+Port-Hamiltonian multibody dynamics:
+Lagrangian formulation, consistent interconnection, structure-preserving simulation and index-reduction_ .
+<!-- [Port-Hamiltonian multibody dynamics:
+Lagrangian formulation, consistent interconnection, structure-preserving simulation and index-reduction](url_arxiv)_ . -->
 This repository is licensed under the [MIT License][url_license].
 
 <!-- TABLE OF CONTENTS -->
@@ -40,7 +42,7 @@ see also the [CITATION.bib](CITATION.bib) file for download.
 
 ## Usage
 
-The implementation was based on the open-source code base [`pydykit`][pydykit_repo]. The results are documented here for reproducibility and verification purposes.
+The implementation has been done in the open-source code base [`pydykit`][pydykit_repo]. The results are documented here for reproducibility and verification purposes.
 
 1. [Clone][url_how_to_clone] this repository to your machine.
 2. Open a terminal and navigate to your local clone.
@@ -48,10 +50,9 @@ The implementation was based on the open-source code base [`pydykit`][pydykit_re
 4. Use your favorite plotting tool to visualize the data.
 
 ## References
-In the manuscript, we compare our formulation to two other approaches from the literature: [Masoudi][url_masoudi_2025] and [Zhou et al. (2022)][doi_zhou_etal_2022]. The data are included in [this folder](results) for your convenience. Please cite those works appropriately if you use the data.
+In the manuscript, we compare our formulation to two other approaches from the literature: [Masoudi][url_masoudi_2025] and [Zhou et al. (2022)][doi_zhou_etal_2022]. The data are included in [this file](results/example_03_slider_crank/slider_crank_h001_incl_reference_results.csv) for your convenience. Please cite those works appropriately if you use the data.
 
-
-[pydykit_repo]: https://github.com/pydykit
+[pydykit_repo]: https://github.com/pydykit/pydykit
 [url_license]: LICENSE
 [url_how_to_clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 [url_masoudi_2025]: https://www.iftomm-multibody.org/benchmark/problem/Spatial_rigid_slider-crank_mechanism/

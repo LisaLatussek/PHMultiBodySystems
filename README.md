@@ -1,5 +1,5 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2512.19408-b31b1b.svg)](https://arxiv.org/abs/2512.19408)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18007057.svg)](https://doi.org/10.5281/zenodo.18007057)
+[![DOI](https://zenodo.org/badge/1178606555.svg)](https://doi.org/10.5281/zenodo.18998378)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # `PHMultiBodySystems`
